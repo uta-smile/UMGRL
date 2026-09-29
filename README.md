@@ -105,18 +105,35 @@ The test phase reports accuracy, macro-F1, macro-AUC, and per-class recall, prec
 ## Implementation details
 
 Full implementation and optimization settings are listed in [docs/implementation_details.md](docs/implementation_details.md).
-## Acknowledgements
+## Acknowledgements and Citations
 
-Our implementation is built upon the [OpenGait](https://github.com/ShiqiYu/OpenGait) framework. We sincerely thank the OpenGait authors and contributors for providing this flexible and extensible gait-recognition platform.
+This repository builds upon the [OpenGait](https://github.com/ShiqiYu/OpenGait) framework and uses the Scoliosis1K dataset for downstream evaluation. We sincerely thank the OpenGait authors and contributors for providing the gait-recognition platform, and the Scoliosis1K authors for releasing the dataset and associated resources.
 
-If you use this repository, please also consider citing OpenGait:
+If you use this repository, please consider citing the following related works:
 
 ```bibtex
-@InProceedings{Fan_2023_CVPR,
-    author    = {Fan, Chao and Liang, Junhao and Shen, Chuanfu and Hou, Saihui and Huang, Yongzhen and Yu, Shiqi},
-    title     = {OpenGait: Revisiting Gait Recognition Towards Better Practicality},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2023},
-    pages     = {9707--9716}
+@inproceedings{fan2023opengait,
+  title={OpenGait: Revisiting Gait Recognition Towards Better Practicality},
+  author={Fan, Chao and Liang, Junhao and Shen, Chuanfu and Hou, Saihui and Huang, Yongzhen and Yu, Shiqi},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9707--9716},
+  year={2023}
+}
+
+@inproceedings{zhou2024gait,
+  title={Gait Patterns as Biomarkers: A Video-Based Approach for Classifying Scoliosis},
+  author={Zhou, Zirui and Liang, Junhao and Peng, Zizhao and Fan, Chao and An, Fengwei and Yu, Shiqi},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={284--294},
+  year={2024},
+  organization={Springer}
+}
+
+@inproceedings{zhou2025gait,
+  title={Pose as Clinical Prior: Learning Dual Representations for Scoliosis Screening},
+  author={Zhou, Zirui and Peng, Zizhao and Jin, Dongyang and Fan, Chao and An, Fengwei and Yu, Shiqi},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={467--476},
+  year={2025},
+  organization={Springer}
 }
