@@ -105,7 +105,18 @@ The test phase reports accuracy, macro-F1, macro-AUC, and per-class recall, prec
 ## Implementation details
 
 Full implementation and optimization settings are listed in [docs/implementation_details.md](docs/implementation_details.md).
-
 ## Acknowledgements
 
-The training framework is built on [OpenGait](https://github.com/ShiqiYu/OpenGait).
+Our implementation is built upon the [OpenGait](https://github.com/ShiqiYu/OpenGait) framework. We sincerely thank the OpenGait authors and contributors for providing this flexible and extensible gait-recognition platform.
+
+If you use this repository, please also consider citing OpenGait:
+
+```bibtex
+@InProceedings{Fan_2023_CVPR,
+    author    = {Fan, Chao and Liang, Junhao and Shen, Chuanfu and Hou, Saihui and Huang, Yongzhen and Yu, Shiqi},
+    title     = {OpenGait: Revisiting Gait Recognition Towards Better Practicality},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {9707--9716}
+}
